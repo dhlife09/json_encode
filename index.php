@@ -1,5 +1,5 @@
 <?php 
-header('Content-Type: application/json; charset=UTF-8');	//JSON style
+header('Content-Type: application/json; charset=UTF-8');  //JSON style
 // Declare an array  
 $a = '200';
 $b = 'ok';
