@@ -8,7 +8,7 @@ $value = array(
     "result_message"=>$b); 
    
 // Use json_encode() function 
-$json = json_encode($value, JSON_PRETTY_PRINT); 
+$json = json_encode($value, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE); 
    
 // Display the output 
 echo($json); 
